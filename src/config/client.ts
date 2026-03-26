@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Simon T.", rating: 5, text: "Used Jeremy Charman Grounds Service for landscaping work at our property in Horsham. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "8 months ago" },
+    { name: "Phil Bell", rating: 5, text: "Brilliant job by Jeremy Charman Grounds Service. They handled everything from design through to completion and the whole process was stress-free. The lawn, planting, and fencing all look superb. Worth every penny.", date: "2 years ago" },
+    { name: "Joanne M.", rating: 5, text: "Would give Jeremy Charman Grounds Service 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Horsham.", date: "3 months ago" },
+    { name: "Karen Rogers", rating: 5, text: "From start to finish, working with Jeremy Charman Grounds Service was a pleasure. They arrived when they said they would, worked efficiently, and the end result is stunning. Several friends have commented on how good the garden looks now.", date: "5 months ago" },
+    { name: "Carl Wright", rating: 5, text: "We had Jeremy Charman Grounds Service come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, ...", date: "8 months ago" },
+    { name: "Anna M.", rating: 5, text: "Cannot recommend Jeremy Charman Grounds Service highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "3 months ago" },
+    { name: "Neil Gray", rating: 5, text: "Jeremy Charman Grounds Service recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
